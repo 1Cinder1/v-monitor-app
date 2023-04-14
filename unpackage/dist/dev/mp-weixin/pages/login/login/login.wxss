@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  overflow-x: auto;
+}
+.content {
+  margin-top: 80rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-input {
+  margin-top: 5rpx;
+  height: 380rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  display: flex;
+  flex-direction: column;
+}
+.background1 {
+  position: fixed;
+  z-index: -100;
+  width: 400rpx;
+  height: 400rpx;
+  left: 400rpx;
+  top: -150rpx;
+  background: conic-gradient(from 180deg at 50% 50%, #B9DAFB 0deg, #9895EE 0.04deg, #C55492 0.07deg, #ECACAD 95.99deg, #B9DAFB 360deg);
+  opacity: 0.7;
+  -webkit-filter: blur(200rpx);
+          filter: blur(200rpx);
+}
+.background2 {
+  position: fixed;
+  z-index: -100;
+  width: 380rpx;
+  height: 380rpx;
+  left: -108rpx;
+  top: 0rpx;
+  background: conic-gradient(from 180deg at 50% 50%, #B9DAFB 0deg, #9895EE 285deg, #ECACAD 359.96deg, #C55492 360deg);
+  opacity: 0.5;
+  -webkit-filter: blur(200rpx);
+          filter: blur(200rpx);
+}
+.background3 {
+  position: fixed;
+  z-index: -100;
+  width: 480rpx;
+  height: 400rpx;
+  left: 340rpx;
+  top: 680rpx;
+  background: conic-gradient(from 180deg at 50% 50%, #B9DAFB 0deg, #9895EE 0.04deg, #C55492 0.07deg, #ECACAD 95.99deg, #B9DAFB 360deg);
+  opacity: 0.7;
+  -webkit-filter: blur(200rpx);
+          filter: blur(200rpx);
+}
+.background4 {
+  position: fixed;
+  z-index: -100;
+  width: 700rpx;
+  height: 644rpx;
+  left: 720rpx;
+  top: 1000rpx;
+  background: conic-gradient(from 180deg at 50% 50%, #B9DAFB 0deg, #ECACAD 95.99deg, #9895EE 206.25deg, #90A2F8 292.5deg, #C55492 360deg);
+  opacity: 0.5;
+  -webkit-filter: blur(200rpx);
+          filter: blur(200rpx);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.background5 {
+  position: fixed;
+  z-index: -100;
+  width: 360rpx;
+  height: 340rpx;
+  left: -200rpx;
+  top: 1400rpx;
+  background: conic-gradient(from 180deg at 50% 50%, #B9CBFB 0deg, #ECACAD 95.99deg, #9895EE 112.5deg, #C55492 196.87deg, #90A2F8 292.5deg, #B9CBFB 360deg);
+  opacity: 0.4;
+  -webkit-filter: blur(200rpx);
+          filter: blur(200rpx);
+}
+.txt-active {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 48rpx;
+  color: #120D26;
+  color: #120D26;
+  border-bottom: #5669FF 10rpx solid;
+}
+.txt {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38rpx;
+}
+.icon-input {
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60rpx;
+  color: #747688;
+}
+.icon-input image {
+  height: 60%;
+  width: 60%;
+}
+.icon-input-message {
+  width: 80rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40rpx;
+  color: #747688;
+}
+.icon-input-message image {
+  height: 70%;
+  width: 90%;
+}
+.placeholder {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32rpx;
+  line-height: 42rpx;
+}
+.placeholder-message {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30rpx;
+  padding-left: 10rpx;
+  line-height: 43rpx;
+}
+.user-input {
+  box-sizing: border-box;
+  border-radius: 24rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  margin-right: 10rpx;
+  margin-top: 40rpx;
+  height: 120rpx;
+  border: 4rpx #E4DFDF solid;
+}
+.password-input {
+  box-sizing: border-box;
+  border-radius: 24rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  margin-right: 10rpx;
+  margin-top: 50rpx;
+  height: 120rpx;
+  border: 4rpx #E4DFDF solid;
+}
+.message-send {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.message-sender {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+  color: #FFFFFF;
+  background: #5669FF;
+  box-shadow: 0rpx 20rpx 70rpx rgba(111, 126, 201, 0.25);
+  border-radius: 30rpx;
+}
+.message-input {
+  box-sizing: border-box;
+  border-radius: 24rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 15rpx;
+  width: 400rpx;
+  margin-top: 50rpx;
+  height: 120rpx;
+  border: 4rpx #E4DFDF solid;
+}
+.message-btn {
+  display: flex;
+  width: 380rpx;
+  margin-left: 10rpx;
+  margin-top: 50rpx;
+  align-items: center;
+}
+.icon-eye {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30rpx;
+  width: 60rpx;
+  height: 60rpx;
+  font-size: 40rpx;
+  color: #747688;
+}
+.yinsi {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.logo {
+  margin-top: 50rpx;
+  width: 240rpx;
+}
+.title {
+  font-size: 50rpx;
+  color: #37364A;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: bolder;
+  margin-bottom: 70rpx;
+}
+.uni-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  height: 80rpx;
+  /* margin-bottom: 80upx; */
+}
+.uni-eye-active {
+  color: #007AFF;
+}
+.btn {
+  margin-top: 80rpx;
+  margin-bottom: 15rpx;
+  background-color: #2979ff;
+  margin-left: 90rpx;
+  margin-right: 90rpx;
+  height: 100rpx;
+  color: white;
+  box-shadow: 0rpx 20rpx 70rpx rgba(111, 126, 201, 0.25);
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  line-height: 100rpx;
+}
+.txt2 {
+  font-size: 30rpx;
+  color: #5669FF;
+}
+.bottom-right {
+  width: 50%;
+  text-align: left;
+}
+.bottom-left {
+  width: 50%;
+  text-align: right;
+}
+

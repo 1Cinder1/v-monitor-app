@@ -1,16 +1,19 @@
 {
 	"pages": [
-	
+
 		{
-            "path" : "pages/hello/hello",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+			"path": "pages/login/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+
+		}
+	],
 	"globalStyle": {
 		"pageOrientation": "portrait",
 		"navigationBarTitleText": "Hello uniapp",
@@ -28,39 +31,14 @@
 			"navigationBarBackgroundColor": "#F1F1F1"
 		}
 
-	},
-	"tabBar": {
-		"color": "#D2CFD6",
-		"selectedColor": "#5669FE",
-		"height": "70px",
-		"iconWidth": "23px",
-		"fontSize": "12px",
-		"borderStyle": "black",
-		"backgroundColor": "#fff",
-		"list": [{
-		        "pagePath": "pages/project-list/ProjectList",
-		        "iconPath": "static/image/other/briefcase.png",
-		        "selectedIconPath": "static/image/other/briefcase-activate.png",
-		        "text": "项目"
-		    },
-		    {
-		        "pagePath": "pages/drill-list/DrillList",
-		        "iconPath": "static/image/other/drill-list.png",
-		        "selectedIconPath": "static/image/other/drill-list-activate.png",
-		        "text": "钻孔"
-		    },
-		    {
-		        "pagePath": "pages/live-list/LiveList",
-		        "iconPath": "static/image/other/location.png",
-		        "selectedIconPath": "static/image/other/location-activate.png",
-		        "text": "直播"
-		    },
-		    {
-		        "pagePath": "pages/mine/mine",
-		        "iconPath": "static/image/other/profile.png",
-		        "selectedIconPath": "static/image/other/profile-activate.png",
-		        "text": "我的"
-		    }
-		]
 	}
+	// "tabBar": {
+	// 	"color": "#D2CFD6",
+	// 	"selectedColor": "#5669FE",
+	// 	"height": "70px",
+	// 	"iconWidth": "23px",
+	// 	"fontSize": "12px",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#fff"
+	// }
 }

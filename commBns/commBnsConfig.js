@@ -74,7 +74,7 @@ commBnsConfig.funcGetCurEnvirCfg = function () {
       config.defaultUrl = `http://${host}:9036`;
       break;
     case "Product":
-      config.defaultUrl = `https://${host}`;
+      config.defaultUrl = `http://localhost:9527`;
       break;
     case "Test":
       config.defaultUrl = `http://${host}`;
